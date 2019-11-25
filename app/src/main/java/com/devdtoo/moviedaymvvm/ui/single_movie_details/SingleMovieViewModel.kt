@@ -14,7 +14,7 @@ class SingleMovieViewModel(private val movieRepository: MovieDetailsRepository, 
         movieRepository.fetchSingleMovieDetails(compositeDisposable, movieId)
     }
 
-    val movieState : LiveData<NetworkState> by lazy {
+    val networkState : LiveData<NetworkState> by lazy {
         movieRepository.getMovieDetailsNetworkState()
     }
 

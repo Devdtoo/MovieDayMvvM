@@ -17,6 +17,10 @@ const val API_KEY = "7ff17a25c7da1faef085e0a8406e9dc7"
 const val BASE_URL = "https://api.themoviedb.org/3/"
 const val POSTER_BASE_URL = "https://image.tmdb.org/t/p/w185"
 
+const val FIRST_PAGE = 1
+const val POST_PER_PAGE = 20
+
+
 object TheMovieDBClient {
 
 //    Using RxJava, Retrofit n OkHttp
